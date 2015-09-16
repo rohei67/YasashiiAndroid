@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
-	String tests[] = {"Omikuji","Ch08_AddDeleteTodo","Ch08_ContentResolver","Ch08_ContentProvider","Ch08_BroadcastReceiver","Ch08_GetIntentResult","Ch08_ActivateSearch","Ch08_ActivateTelephone","ViewTestThread", "Ch05_AdvancedAnim","Ch05_ViewFlipper","Ch05_Animation","Ch04_GridView","Ch04_Dialog","Ch04_Menu","Ch04_DispDate","Ch04_ViewCustomize","Ch04_PracticeButton","Ch04_Button345","Sample2_Font", "PreLayout", "Lesson3_Practice1", "Sample2_LinearLayout", "Sample3_TableLayout", "Sample4_ButtonTap", "Sample5_ButtonEvent"};
+	String tests[] = {"FortuneMain","Omikuji","Ch08_AddDeleteTodo","Ch08_ContentResolver","Ch08_ContentProvider","Ch08_BroadcastReceiver","Ch08_GetIntentResult","Ch08_ActivateSearch","Ch08_ActivateTelephone","ViewTestThread", "Ch05_AdvancedAnim","Ch05_ViewFlipper","Ch05_Animation","Ch04_GridView","Ch04_Dialog","Ch04_Menu","Ch04_DispDate","Ch04_ViewCustomize","Ch04_PracticeButton","Ch04_Button345","Sample2_Font", "PreLayout", "Lesson3_Practice1", "Sample2_LinearLayout", "Sample3_TableLayout", "Sample4_ButtonTap", "Sample5_ButtonEvent"};
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

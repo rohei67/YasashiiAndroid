@@ -80,8 +80,8 @@ public class OmikujiGenerate extends AppCompatActivity {
 		iv.setImageBitmap(bmp);
 
 		AnimationSet anim = new AnimationSet(true);
-		anim.addAnimation(new ScaleAnimation(0.1f, 1, 0.1f, 1, Animation.RELATIVE_TO_SELF, iv.getWidth()/2, Animation.RELATIVE_TO_SELF, iv.getHeight()/2));
-		anim.addAnimation(new RotateAnimation(0, 360, iv.getWidth()/2, iv.getHeight()/2));
+		anim.addAnimation(new ScaleAnimation(0.01f, 1, 0.01f, 1, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f));
+		anim.addAnimation(new RotateAnimation(0, 3600, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f));
 		anim.setDuration(3000);
 		iv.startAnimation(anim);
 		ll.addView(iv);

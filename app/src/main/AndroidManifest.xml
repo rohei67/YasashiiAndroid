@@ -102,6 +102,12 @@
         <activity
             android:name=".OmikujiGenerate"
             android:label="おみくじアプリ" />
+        <activity
+            android:name=".FortuneMain"
+            android:label="おみくじアプリ(先生の)" />
+        <activity
+            android:name=".FortuneSub"
+            android:label="おみくじアプリ(先生の)" />
     </application>
 
 </manifest>

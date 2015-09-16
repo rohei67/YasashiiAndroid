@@ -5,4 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_sample4__button_tap">Sample4_ButtonTap</string>
     <string name="title_activity_pre_layout">PreLayout</string>
+
+    <string name="FortuneBtnText">占いはここを押す!</string>
+    <string name="title_activity_fortune_sub">FortuneSub</string>
 </resources>
