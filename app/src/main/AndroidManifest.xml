@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.and0701.yasaandroid" >
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sample2_LinearLayout"
+            android:label="Sample2 LinearLayout" />
+        <activity
+            android:name=".Sample3_TableLayout"
+            android:label="Sample3 TableLayout" />
+        <activity
+            android:name=".Sample4_ButtonTap"
+            android:label="@string/title_activity_sample4__button_tap" />
+        <activity
+            android:name=".Sample5_ButtonEvent"
+            android:label="Sample5 ButtonEvent" />
+        <activity
+            android:name=".Lesson3_Practice1"
+            android:label="Lesson3 Practice1" />
+        <activity
+            android:name=".PreLayout"
+            android:label="@string/title_activity_pre_layout" />
+        <activity
+            android:name=".Sample2_Font"
+            android:label="Sample2 Font" />
+        <activity
+            android:name=".Ch04_Button345"
+            android:label="Ch04 Button345" />
+        <activity
+            android:name=".Ch04_PracticeButton"
+            android:label="☆Button Click☆" />
+        <activity
+            android:name=".Ch04_ViewCustomize"
+            android:label="View Customize" />
+        <activity
+            android:name=".Ch04_DispDate"
+            android:label="Ch04 DispDate" />
+        <activity
+            android:name=".Ch04_Menu"
+            android:label="Ch04 Menu" />
+        <activity
+            android:name=".Ch04_Dialog"
+            android:label="Ch04 Dialog" />
+        <activity
+            android:name=".Ch04_GridView"
+            android:label="Ch04 GridView" />
+        <activity
+            android:name=".Ch05_Animation"
+            android:label="Ch05 Animation" />
+        <activity
+            android:name=".Ch05_ViewFlipper"
+            android:label="Ch05 ViewFlipper" />
+        <activity
+            android:name=".Ch05_AdvancedAnim"
+            android:label="Ch05 Advanced Animation" />
+        <activity
+            android:name=".ViewTestThread"
+            android:label="View Test Thread" />
+        <activity
+            android:name=".Ch08_ActivateTelephone"
+            android:label="Ch08 Activate Telephone" />
+        <activity
+            android:name=".Ch08_ActivateSearch"
+            android:label="Ch08 Activate Search" />
+        <activity
+            android:name=".Ch08_GetIntentResult"
+            android:label="Ch08 GetIntentResult" />
+        <activity
+            android:name=".Ch08_BroadcastReceiver"
+            android:label="Ch08 Broadcast Receiver" />
+        <activity
+            android:name=".Ch08_ContentProvider"
+            android:label="Ch08 Content Provider" />
+        <activity
+            android:name=".Ch08_ContentResolver"
+            android:label="Ch08 Content Resolver" />
+        <activity
+            android:name=".Ch08_AddDeleteTodo"
+            android:label="Ch08 Add Delete Todo" />
+        <activity
+            android:name=".Ch08_AddNewTodo"
+            android:label="Ch08 Add NewTodo" />
+        <activity
+            android:name=".Omikuji"
+            android:label="おみくじアプリ" />
+        <activity
+            android:name=".OmikujiGenerate"
+            android:label="おみくじアプリ" />
+    </application>
+
+</manifest>
